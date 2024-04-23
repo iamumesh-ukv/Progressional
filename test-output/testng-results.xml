@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-13T23:20:48 IST" name="Default suite" finished-at="2024-02-13T23:26:00 IST" duration-ms="312002">
+    <groups>
+    </groups>
+    <test started-at="2024-02-13T23:20:48 IST" name="Default test" finished-at="2024-02-13T23:26:00 IST" duration-ms="312002">
+      <class name="com.progressional.qa.testcases.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.progressional.qa.testcases.LoginTest@17f62e33]" started-at="2024-02-13T23:20:48 IST" name="setup" finished-at="2024-02-13T23:22:55 IST" duration-ms="126774" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.progressional.qa.testcases.LoginTest@17f62e33]" started-at="2024-02-13T23:22:55 IST" name="verifyLoginWithValidCredentials" data-provider="validCredentialsSupplier" finished-at="2024-02-13T23:23:09 IST" duration-ms="14048" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[umesh@yopmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Umesh@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredentials -->
+        <test-method is-config="true" signature="teaDown()[pri:0, instance:com.progressional.qa.testcases.LoginTest@17f62e33]" started-at="2024-02-13T23:23:09 IST" name="teaDown" finished-at="2024-02-13T23:23:14 IST" duration-ms="4242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teaDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.progressional.qa.testcases.LoginTest@17f62e33]" started-at="2024-02-13T23:23:14 IST" name="setup" finished-at="2024-02-13T23:23:50 IST" duration-ms="36236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithInvalidCredentials()[pri:2, instance:com.progressional.qa.testcases.LoginTest@17f62e33]" started-at="2024-02-13T23:23:50 IST" name="verifyLoginWithInvalidCredentials" finished-at="2024-02-13T23:23:52 IST" duration-ms="2341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInvalidCredentials -->
+        <test-method is-config="true" signature="teaDown()[pri:0, instance:com.progressional.qa.testcases.LoginTest@17f62e33]" started-at="2024-02-13T23:23:52 IST" name="teaDown" finished-at="2024-02-13T23:23:53 IST" duration-ms="1294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teaDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.progressional.qa.testcases.LoginTest@17f62e33]" started-at="2024-02-13T23:23:53 IST" name="setup" finished-at="2024-02-13T23:24:22 IST" duration-ms="28120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithInvalidEmailAndValidPassword()[pri:3, instance:com.progressional.qa.testcases.LoginTest@17f62e33]" started-at="2024-02-13T23:24:22 IST" name="verifyLoginWithInvalidEmailAndValidPassword" finished-at="2024-02-13T23:24:25 IST" duration-ms="3093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInvalidEmailAndValidPassword -->
+        <test-method is-config="true" signature="teaDown()[pri:0, instance:com.progressional.qa.testcases.LoginTest@17f62e33]" started-at="2024-02-13T23:24:25 IST" name="teaDown" finished-at="2024-02-13T23:24:27 IST" duration-ms="2272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teaDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.progressional.qa.testcases.LoginTest@17f62e33]" started-at="2024-02-13T23:24:27 IST" name="setup" finished-at="2024-02-13T23:25:07 IST" duration-ms="40492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithValidEmailAndInvalidPassword()[pri:4, instance:com.progressional.qa.testcases.LoginTest@17f62e33]" started-at="2024-02-13T23:25:07 IST" name="verifyLoginWithValidEmailAndInvalidPassword" finished-at="2024-02-13T23:25:22 IST" duration-ms="14897" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidEmailAndInvalidPassword -->
+        <test-method is-config="true" signature="teaDown()[pri:0, instance:com.progressional.qa.testcases.LoginTest@17f62e33]" started-at="2024-02-13T23:25:22 IST" name="teaDown" finished-at="2024-02-13T23:25:30 IST" duration-ms="7553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teaDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.progressional.qa.testcases.LoginTest@17f62e33]" started-at="2024-02-13T23:25:30 IST" name="setup" finished-at="2024-02-13T23:25:59 IST" duration-ms="28769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithoutProvidingCredentials()[pri:5, instance:com.progressional.qa.testcases.LoginTest@17f62e33]" started-at="2024-02-13T23:25:59 IST" name="verifyLoginWithoutProvidingCredentials" finished-at="2024-02-13T23:25:59 IST" duration-ms="292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithoutProvidingCredentials -->
+        <test-method is-config="true" signature="teaDown()[pri:0, instance:com.progressional.qa.testcases.LoginTest@17f62e33]" started-at="2024-02-13T23:25:59 IST" name="teaDown" finished-at="2024-02-13T23:26:00 IST" duration-ms="585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teaDown -->
+      </class> <!-- com.progressional.qa.testcases.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
