@@ -1,17 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-13T23:20:48 IST" name="Default suite" finished-at="2024-02-13T23:26:00 IST" duration-ms="312002">
+  <suite started-at="2024-04-25T22:57:52 IST" name="Suite" finished-at="2024-04-25T23:02:44 IST" duration-ms="291352">
     <groups>
     </groups>
-    <test started-at="2024-02-13T23:20:48 IST" name="Default test" finished-at="2024-02-13T23:26:00 IST" duration-ms="312002">
-      <class name="com.progressional.qa.testcases.LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.progressional.qa.testcases.LoginTest@17f62e33]" started-at="2024-02-13T23:20:48 IST" name="setup" finished-at="2024-02-13T23:22:55 IST" duration-ms="126774" status="PASS">
+    <test started-at="2024-04-25T22:57:52 IST" name="Test" finished-at="2024-04-25T23:02:44 IST" duration-ms="291352">
+      <class name="com.progressional.qa.testcases.RegisterTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.progressional.qa.testcases.RegisterTest@3e8c3cb]" started-at="2024-04-25T22:57:52 IST" name="setup" finished-at="2024-04-25T22:58:58 IST" duration-ms="65067" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLoginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.progressional.qa.testcases.LoginTest@17f62e33]" started-at="2024-02-13T23:22:55 IST" name="verifyLoginWithValidCredentials" data-provider="validCredentialsSupplier" finished-at="2024-02-13T23:23:09 IST" duration-ms="14048" status="PASS">
+        <test-method signature="verifyRegisteringAnAccountWithMandatoryFields()[pri:1, instance:com.progressional.qa.testcases.RegisterTest@3e8c3cb]" started-at="2024-04-25T22:58:58 IST" name="verifyRegisteringAnAccountWithMandatoryFields" finished-at="2024-04-25T22:59:10 IST" duration-ms="12111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisteringAnAccountWithMandatoryFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.progressional.qa.testcases.RegisterTest@3e8c3cb]" started-at="2024-04-25T22:59:10 IST" name="tearDown" finished-at="2024-04-25T22:59:17 IST" duration-ms="7377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.progressional.qa.testcases.RegisterTest@3e8c3cb]" started-at="2024-04-25T22:59:17 IST" name="setup" finished-at="2024-04-25T23:00:07 IST" duration-ms="50200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyRegisteringAccountWithExistingEmailAddress()[pri:2, instance:com.progressional.qa.testcases.RegisterTest@3e8c3cb]" started-at="2024-04-25T23:00:07 IST" name="verifyRegisteringAccountWithExistingEmailAddress" finished-at="2024-04-25T23:00:10 IST" duration-ms="2259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisteringAccountWithExistingEmailAddress -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.progressional.qa.testcases.RegisterTest@3e8c3cb]" started-at="2024-04-25T23:00:10 IST" name="tearDown" finished-at="2024-04-25T23:00:12 IST" duration-ms="2889" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.progressional.qa.testcases.RegisterTest@3e8c3cb]" started-at="2024-04-25T23:00:12 IST" name="setup" finished-at="2024-04-25T23:00:44 IST" duration-ms="31587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyRegisteringAccountWithoutFillingAnyDetails()[pri:3, instance:com.progressional.qa.testcases.RegisterTest@3e8c3cb]" started-at="2024-04-25T23:00:44 IST" name="verifyRegisteringAccountWithoutFillingAnyDetails" finished-at="2024-04-25T23:00:47 IST" duration-ms="2538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisteringAccountWithoutFillingAnyDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.progressional.qa.testcases.RegisterTest@3e8c3cb]" started-at="2024-04-25T23:00:47 IST" name="tearDown" finished-at="2024-04-25T23:00:49 IST" duration-ms="2446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.progressional.qa.testcases.RegisterTest -->
+      <class name="com.progressional.qa.testcases.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.progressional.qa.testcases.LoginTest@6caf0677]" started-at="2024-04-25T23:00:49 IST" name="setup" finished-at="2024-04-25T23:01:07 IST" duration-ms="18047" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.progressional.qa.testcases.LoginTest@6caf0677]" started-at="2024-04-25T23:01:07 IST" name="verifyLoginWithValidCredentials" data-provider="validCredentialsSupplier" finished-at="2024-04-25T23:01:08 IST" duration-ms="827" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,59 +65,73 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginWithValidCredentials -->
-        <test-method is-config="true" signature="teaDown()[pri:0, instance:com.progressional.qa.testcases.LoginTest@17f62e33]" started-at="2024-02-13T23:23:09 IST" name="teaDown" finished-at="2024-02-13T23:23:14 IST" duration-ms="4242" status="PASS">
+        <test-method is-config="true" signature="teaDown()[pri:0, instance:com.progressional.qa.testcases.LoginTest@6caf0677]" started-at="2024-04-25T23:01:08 IST" name="teaDown" finished-at="2024-04-25T23:01:09 IST" duration-ms="1569" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teaDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.progressional.qa.testcases.LoginTest@17f62e33]" started-at="2024-02-13T23:23:14 IST" name="setup" finished-at="2024-02-13T23:23:50 IST" duration-ms="36236" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.progressional.qa.testcases.LoginTest@6caf0677]" started-at="2024-04-25T23:01:09 IST" name="setup" finished-at="2024-04-25T23:01:23 IST" duration-ms="13215" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLoginWithInvalidCredentials()[pri:2, instance:com.progressional.qa.testcases.LoginTest@17f62e33]" started-at="2024-02-13T23:23:50 IST" name="verifyLoginWithInvalidCredentials" finished-at="2024-02-13T23:23:52 IST" duration-ms="2341" status="PASS">
+        <test-method signature="verifyLoginWithInvalidCredentials()[pri:2, instance:com.progressional.qa.testcases.LoginTest@6caf0677]" started-at="2024-04-25T23:01:23 IST" name="verifyLoginWithInvalidCredentials" finished-at="2024-04-25T23:01:24 IST" duration-ms="1119" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginWithInvalidCredentials -->
-        <test-method is-config="true" signature="teaDown()[pri:0, instance:com.progressional.qa.testcases.LoginTest@17f62e33]" started-at="2024-02-13T23:23:52 IST" name="teaDown" finished-at="2024-02-13T23:23:53 IST" duration-ms="1294" status="PASS">
+        <test-method is-config="true" signature="teaDown()[pri:0, instance:com.progressional.qa.testcases.LoginTest@6caf0677]" started-at="2024-04-25T23:01:24 IST" name="teaDown" finished-at="2024-04-25T23:01:25 IST" duration-ms="866" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teaDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.progressional.qa.testcases.LoginTest@17f62e33]" started-at="2024-02-13T23:23:53 IST" name="setup" finished-at="2024-02-13T23:24:22 IST" duration-ms="28120" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.progressional.qa.testcases.LoginTest@6caf0677]" started-at="2024-04-25T23:01:25 IST" name="setup" finished-at="2024-04-25T23:01:42 IST" duration-ms="17625" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLoginWithInvalidEmailAndValidPassword()[pri:3, instance:com.progressional.qa.testcases.LoginTest@17f62e33]" started-at="2024-02-13T23:24:22 IST" name="verifyLoginWithInvalidEmailAndValidPassword" finished-at="2024-02-13T23:24:25 IST" duration-ms="3093" status="PASS">
+        <test-method signature="verifyLoginWithInvalidEmailAndValidPassword()[pri:3, instance:com.progressional.qa.testcases.LoginTest@6caf0677]" started-at="2024-04-25T23:01:42 IST" name="verifyLoginWithInvalidEmailAndValidPassword" finished-at="2024-04-25T23:01:43 IST" duration-ms="838" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginWithInvalidEmailAndValidPassword -->
-        <test-method is-config="true" signature="teaDown()[pri:0, instance:com.progressional.qa.testcases.LoginTest@17f62e33]" started-at="2024-02-13T23:24:25 IST" name="teaDown" finished-at="2024-02-13T23:24:27 IST" duration-ms="2272" status="PASS">
+        <test-method is-config="true" signature="teaDown()[pri:0, instance:com.progressional.qa.testcases.LoginTest@6caf0677]" started-at="2024-04-25T23:01:43 IST" name="teaDown" finished-at="2024-04-25T23:01:44 IST" duration-ms="645" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teaDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.progressional.qa.testcases.LoginTest@17f62e33]" started-at="2024-02-13T23:24:27 IST" name="setup" finished-at="2024-02-13T23:25:07 IST" duration-ms="40492" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.progressional.qa.testcases.LoginTest@6caf0677]" started-at="2024-04-25T23:01:44 IST" name="setup" finished-at="2024-04-25T23:01:59 IST" duration-ms="15519" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLoginWithValidEmailAndInvalidPassword()[pri:4, instance:com.progressional.qa.testcases.LoginTest@17f62e33]" started-at="2024-02-13T23:25:07 IST" name="verifyLoginWithValidEmailAndInvalidPassword" finished-at="2024-02-13T23:25:22 IST" duration-ms="14897" status="PASS">
+        <test-method signature="verifyLoginWithValidEmailAndInvalidPassword()[pri:4, instance:com.progressional.qa.testcases.LoginTest@6caf0677]" started-at="2024-04-25T23:01:59 IST" name="verifyLoginWithValidEmailAndInvalidPassword" finished-at="2024-04-25T23:02:01 IST" duration-ms="1254" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginWithValidEmailAndInvalidPassword -->
-        <test-method is-config="true" signature="teaDown()[pri:0, instance:com.progressional.qa.testcases.LoginTest@17f62e33]" started-at="2024-02-13T23:25:22 IST" name="teaDown" finished-at="2024-02-13T23:25:30 IST" duration-ms="7553" status="PASS">
+        <test-method is-config="true" signature="teaDown()[pri:0, instance:com.progressional.qa.testcases.LoginTest@6caf0677]" started-at="2024-04-25T23:02:01 IST" name="teaDown" finished-at="2024-04-25T23:02:01 IST" duration-ms="616" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teaDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.progressional.qa.testcases.LoginTest@17f62e33]" started-at="2024-02-13T23:25:30 IST" name="setup" finished-at="2024-02-13T23:25:59 IST" duration-ms="28769" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.progressional.qa.testcases.LoginTest@6caf0677]" started-at="2024-04-25T23:02:01 IST" name="setup" finished-at="2024-04-25T23:02:22 IST" duration-ms="20877" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLoginWithoutProvidingCredentials()[pri:5, instance:com.progressional.qa.testcases.LoginTest@17f62e33]" started-at="2024-02-13T23:25:59 IST" name="verifyLoginWithoutProvidingCredentials" finished-at="2024-02-13T23:25:59 IST" duration-ms="292" status="PASS">
+        <test-method signature="verifyLoginWithoutProvidingCredentials()[pri:5, instance:com.progressional.qa.testcases.LoginTest@6caf0677]" started-at="2024-04-25T23:02:22 IST" name="verifyLoginWithoutProvidingCredentials" finished-at="2024-04-25T23:02:22 IST" duration-ms="368" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginWithoutProvidingCredentials -->
-        <test-method is-config="true" signature="teaDown()[pri:0, instance:com.progressional.qa.testcases.LoginTest@17f62e33]" started-at="2024-02-13T23:25:59 IST" name="teaDown" finished-at="2024-02-13T23:26:00 IST" duration-ms="585" status="PASS">
+        <test-method is-config="true" signature="teaDown()[pri:0, instance:com.progressional.qa.testcases.LoginTest@6caf0677]" started-at="2024-04-25T23:02:22 IST" name="teaDown" finished-at="2024-04-25T23:02:25 IST" duration-ms="2731" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teaDown -->
       </class> <!-- com.progressional.qa.testcases.LoginTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="com.progressional.qa.testcases.UpdateprofileTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.progressional.qa.testcases.UpdateprofileTest@413d1baf]" started-at="2024-04-25T23:02:25 IST" name="setup" finished-at="2024-04-25T23:02:41 IST" duration-ms="16319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="updatePersonalDetailsPageManadatoryFields()[pri:1, instance:com.progressional.qa.testcases.UpdateprofileTest@413d1baf]" started-at="2024-04-25T23:02:41 IST" name="updatePersonalDetailsPageManadatoryFields" finished-at="2024-04-25T23:02:41 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updatePersonalDetailsPageManadatoryFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.progressional.qa.testcases.UpdateprofileTest@413d1baf]" started-at="2024-04-25T23:02:41 IST" name="tearDown" finished-at="2024-04-25T23:02:44 IST" duration-ms="2221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.progressional.qa.testcases.UpdateprofileTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
