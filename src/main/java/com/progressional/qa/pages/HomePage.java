@@ -6,20 +6,20 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class HomePage {
-	
+
 	WebDriver driver;
-	
+
 	//Objects
 	@FindBy(xpath="//button[normalize-space()='Sign Up']")
 	WebElement signupOption;
-	
+
 	public HomePage(WebDriver driver)
 	{
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
-		
+
 	}
-    //Actions
+	//Actions
 	public RegisterPage navigateToRegisterPage()
 	{
 		signupOption.click();
@@ -32,5 +32,10 @@ public class HomePage {
 	public UpdateprofilePage navigateToUpadteprofilePage()
 	{
 		return new UpdateprofilePage(driver);
-}
-}
+	}
+	public CreateJourneyPage navigateToCreateJourneyPage()
+	{
+	
+		return new CreateJourneyPage(driver);
+	}
+	}

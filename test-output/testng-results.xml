@@ -1,55 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-25T22:57:52 IST" name="Suite" finished-at="2024-04-25T23:02:44 IST" duration-ms="291352">
+  <suite started-at="2024-07-06T23:17:27 IST" name="Suite" finished-at="2024-07-06T23:20:37 IST" duration-ms="190375">
     <groups>
     </groups>
-    <test started-at="2024-04-25T22:57:52 IST" name="Test" finished-at="2024-04-25T23:02:44 IST" duration-ms="291352">
-      <class name="com.progressional.qa.testcases.RegisterTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.progressional.qa.testcases.RegisterTest@3e8c3cb]" started-at="2024-04-25T22:57:52 IST" name="setup" finished-at="2024-04-25T22:58:58 IST" duration-ms="65067" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyRegisteringAnAccountWithMandatoryFields()[pri:1, instance:com.progressional.qa.testcases.RegisterTest@3e8c3cb]" started-at="2024-04-25T22:58:58 IST" name="verifyRegisteringAnAccountWithMandatoryFields" finished-at="2024-04-25T22:59:10 IST" duration-ms="12111" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyRegisteringAnAccountWithMandatoryFields -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.progressional.qa.testcases.RegisterTest@3e8c3cb]" started-at="2024-04-25T22:59:10 IST" name="tearDown" finished-at="2024-04-25T22:59:17 IST" duration-ms="7377" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.progressional.qa.testcases.RegisterTest@3e8c3cb]" started-at="2024-04-25T22:59:17 IST" name="setup" finished-at="2024-04-25T23:00:07 IST" duration-ms="50200" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyRegisteringAccountWithExistingEmailAddress()[pri:2, instance:com.progressional.qa.testcases.RegisterTest@3e8c3cb]" started-at="2024-04-25T23:00:07 IST" name="verifyRegisteringAccountWithExistingEmailAddress" finished-at="2024-04-25T23:00:10 IST" duration-ms="2259" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyRegisteringAccountWithExistingEmailAddress -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.progressional.qa.testcases.RegisterTest@3e8c3cb]" started-at="2024-04-25T23:00:10 IST" name="tearDown" finished-at="2024-04-25T23:00:12 IST" duration-ms="2889" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.progressional.qa.testcases.RegisterTest@3e8c3cb]" started-at="2024-04-25T23:00:12 IST" name="setup" finished-at="2024-04-25T23:00:44 IST" duration-ms="31587" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyRegisteringAccountWithoutFillingAnyDetails()[pri:3, instance:com.progressional.qa.testcases.RegisterTest@3e8c3cb]" started-at="2024-04-25T23:00:44 IST" name="verifyRegisteringAccountWithoutFillingAnyDetails" finished-at="2024-04-25T23:00:47 IST" duration-ms="2538" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyRegisteringAccountWithoutFillingAnyDetails -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.progressional.qa.testcases.RegisterTest@3e8c3cb]" started-at="2024-04-25T23:00:47 IST" name="tearDown" finished-at="2024-04-25T23:00:49 IST" duration-ms="2446" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.progressional.qa.testcases.RegisterTest -->
+    <test started-at="2024-07-06T23:17:27 IST" name="Test" finished-at="2024-07-06T23:20:37 IST" duration-ms="190375">
       <class name="com.progressional.qa.testcases.LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.progressional.qa.testcases.LoginTest@6caf0677]" started-at="2024-04-25T23:00:49 IST" name="setup" finished-at="2024-04-25T23:01:07 IST" duration-ms="18047" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.progressional.qa.testcases.LoginTest@2af004b]" started-at="2024-07-06T23:17:27 IST" name="setup" finished-at="2024-07-06T23:18:46 IST" duration-ms="79177" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLoginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.progressional.qa.testcases.LoginTest@6caf0677]" started-at="2024-04-25T23:01:07 IST" name="verifyLoginWithValidCredentials" data-provider="validCredentialsSupplier" finished-at="2024-04-25T23:01:08 IST" duration-ms="827" status="PASS">
+        <test-method signature="verifyLoginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.progressional.qa.testcases.LoginTest@2af004b]" started-at="2024-07-06T23:18:47 IST" name="verifyLoginWithValidCredentials" data-provider="validCredentialsSupplier" finished-at="2024-07-06T23:18:50 IST" duration-ms="3856" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -65,73 +27,143 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginWithValidCredentials -->
-        <test-method is-config="true" signature="teaDown()[pri:0, instance:com.progressional.qa.testcases.LoginTest@6caf0677]" started-at="2024-04-25T23:01:08 IST" name="teaDown" finished-at="2024-04-25T23:01:09 IST" duration-ms="1569" status="PASS">
+        <test-method is-config="true" signature="teaDown()[pri:0, instance:com.progressional.qa.testcases.LoginTest@2af004b]" started-at="2024-07-06T23:18:50 IST" name="teaDown" finished-at="2024-07-06T23:18:57 IST" duration-ms="6978" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teaDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.progressional.qa.testcases.LoginTest@6caf0677]" started-at="2024-04-25T23:01:09 IST" name="setup" finished-at="2024-04-25T23:01:23 IST" duration-ms="13215" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.progressional.qa.testcases.LoginTest@2af004b]" started-at="2024-07-06T23:18:57 IST" name="setup" finished-at="2024-07-06T23:19:30 IST" duration-ms="33013" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLoginWithInvalidCredentials()[pri:2, instance:com.progressional.qa.testcases.LoginTest@6caf0677]" started-at="2024-04-25T23:01:23 IST" name="verifyLoginWithInvalidCredentials" finished-at="2024-04-25T23:01:24 IST" duration-ms="1119" status="PASS">
+        <test-method signature="verifyLoginWithInvalidCredentials()[pri:2, instance:com.progressional.qa.testcases.LoginTest@2af004b]" started-at="2024-07-06T23:19:30 IST" name="verifyLoginWithInvalidCredentials" finished-at="2024-07-06T23:19:31 IST" duration-ms="926" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginWithInvalidCredentials -->
-        <test-method is-config="true" signature="teaDown()[pri:0, instance:com.progressional.qa.testcases.LoginTest@6caf0677]" started-at="2024-04-25T23:01:24 IST" name="teaDown" finished-at="2024-04-25T23:01:25 IST" duration-ms="866" status="PASS">
+        <test-method is-config="true" signature="teaDown()[pri:0, instance:com.progressional.qa.testcases.LoginTest@2af004b]" started-at="2024-07-06T23:19:31 IST" name="teaDown" finished-at="2024-07-06T23:19:32 IST" duration-ms="689" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teaDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.progressional.qa.testcases.LoginTest@6caf0677]" started-at="2024-04-25T23:01:25 IST" name="setup" finished-at="2024-04-25T23:01:42 IST" duration-ms="17625" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.progressional.qa.testcases.LoginTest@2af004b]" started-at="2024-07-06T23:19:32 IST" name="setup" finished-at="2024-07-06T23:19:47 IST" duration-ms="15060" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLoginWithInvalidEmailAndValidPassword()[pri:3, instance:com.progressional.qa.testcases.LoginTest@6caf0677]" started-at="2024-04-25T23:01:42 IST" name="verifyLoginWithInvalidEmailAndValidPassword" finished-at="2024-04-25T23:01:43 IST" duration-ms="838" status="PASS">
+        <test-method signature="verifyLoginWithInvalidEmailAndValidPassword()[pri:3, instance:com.progressional.qa.testcases.LoginTest@2af004b]" started-at="2024-07-06T23:19:47 IST" name="verifyLoginWithInvalidEmailAndValidPassword" finished-at="2024-07-06T23:19:49 IST" duration-ms="1545" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginWithInvalidEmailAndValidPassword -->
-        <test-method is-config="true" signature="teaDown()[pri:0, instance:com.progressional.qa.testcases.LoginTest@6caf0677]" started-at="2024-04-25T23:01:43 IST" name="teaDown" finished-at="2024-04-25T23:01:44 IST" duration-ms="645" status="PASS">
+        <test-method is-config="true" signature="teaDown()[pri:0, instance:com.progressional.qa.testcases.LoginTest@2af004b]" started-at="2024-07-06T23:19:49 IST" name="teaDown" finished-at="2024-07-06T23:19:49 IST" duration-ms="593" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teaDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.progressional.qa.testcases.LoginTest@6caf0677]" started-at="2024-04-25T23:01:44 IST" name="setup" finished-at="2024-04-25T23:01:59 IST" duration-ms="15519" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.progressional.qa.testcases.LoginTest@2af004b]" started-at="2024-07-06T23:19:49 IST" name="setup" finished-at="2024-07-06T23:20:05 IST" duration-ms="15727" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLoginWithValidEmailAndInvalidPassword()[pri:4, instance:com.progressional.qa.testcases.LoginTest@6caf0677]" started-at="2024-04-25T23:01:59 IST" name="verifyLoginWithValidEmailAndInvalidPassword" finished-at="2024-04-25T23:02:01 IST" duration-ms="1254" status="PASS">
+        <test-method signature="verifyLoginWithValidEmailAndInvalidPassword()[pri:4, instance:com.progressional.qa.testcases.LoginTest@2af004b]" started-at="2024-07-06T23:20:05 IST" name="verifyLoginWithValidEmailAndInvalidPassword" finished-at="2024-07-06T23:20:07 IST" duration-ms="2242" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginWithValidEmailAndInvalidPassword -->
-        <test-method is-config="true" signature="teaDown()[pri:0, instance:com.progressional.qa.testcases.LoginTest@6caf0677]" started-at="2024-04-25T23:02:01 IST" name="teaDown" finished-at="2024-04-25T23:02:01 IST" duration-ms="616" status="PASS">
+        <test-method is-config="true" signature="teaDown()[pri:0, instance:com.progressional.qa.testcases.LoginTest@2af004b]" started-at="2024-07-06T23:20:07 IST" name="teaDown" finished-at="2024-07-06T23:20:08 IST" duration-ms="551" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teaDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.progressional.qa.testcases.LoginTest@6caf0677]" started-at="2024-04-25T23:02:01 IST" name="setup" finished-at="2024-04-25T23:02:22 IST" duration-ms="20877" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.progressional.qa.testcases.LoginTest@2af004b]" started-at="2024-07-06T23:20:08 IST" name="setup" finished-at="2024-07-06T23:20:22 IST" duration-ms="14110" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLoginWithoutProvidingCredentials()[pri:5, instance:com.progressional.qa.testcases.LoginTest@6caf0677]" started-at="2024-04-25T23:02:22 IST" name="verifyLoginWithoutProvidingCredentials" finished-at="2024-04-25T23:02:22 IST" duration-ms="368" status="PASS">
+        <test-method signature="verifyLoginWithoutProvidingCredentials()[pri:5, instance:com.progressional.qa.testcases.LoginTest@2af004b]" started-at="2024-07-06T23:20:22 IST" name="verifyLoginWithoutProvidingCredentials" finished-at="2024-07-06T23:20:22 IST" duration-ms="235" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginWithoutProvidingCredentials -->
-        <test-method is-config="true" signature="teaDown()[pri:0, instance:com.progressional.qa.testcases.LoginTest@6caf0677]" started-at="2024-04-25T23:02:22 IST" name="teaDown" finished-at="2024-04-25T23:02:25 IST" duration-ms="2731" status="PASS">
+        <test-method is-config="true" signature="teaDown()[pri:0, instance:com.progressional.qa.testcases.LoginTest@2af004b]" started-at="2024-07-06T23:20:22 IST" name="teaDown" finished-at="2024-07-06T23:20:23 IST" duration-ms="450" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teaDown -->
       </class> <!-- com.progressional.qa.testcases.LoginTest -->
-      <class name="com.progressional.qa.testcases.UpdateprofileTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.progressional.qa.testcases.UpdateprofileTest@413d1baf]" started-at="2024-04-25T23:02:25 IST" name="setup" finished-at="2024-04-25T23:02:41 IST" duration-ms="16319" status="PASS">
+      <class name="com.progressional.qa.testcases.CreateJourneyTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.progressional.qa.testcases.CreateJourneyTest@2cb4893b]" started-at="2024-07-06T23:20:23 IST" name="setup" finished-at="2024-07-06T23:20:36 IST" duration-ms="13761" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="updatePersonalDetailsPageManadatoryFields()[pri:1, instance:com.progressional.qa.testcases.UpdateprofileTest@413d1baf]" started-at="2024-04-25T23:02:41 IST" name="updatePersonalDetailsPageManadatoryFields" finished-at="2024-04-25T23:02:41 IST" duration-ms="4" status="PASS">
+        <test-method signature="verifyCreateJourney()[pri:1, instance:com.progressional.qa.testcases.CreateJourneyTest@2cb4893b]" started-at="2024-07-06T23:20:36 IST" name="verifyCreateJourney" finished-at="2024-07-06T23:20:37 IST" duration-ms="274" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[normalize-space()='Create New Journey']"}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [953fc0d3c64ee1bc6df5d98742e165a2, findElement {using=xpath, value=//span[normalize-space()='Create New Journey']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\umesh\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63243}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63243/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 953fc0d3c64ee1bc6df5d98742e165a2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[normalize-space()='Create New Journey']"}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [953fc0d3c64ee1bc6df5d98742e165a2, findElement {using=xpath, value=//span[normalize-space()='Create New Journey']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\umesh\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63243}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63243/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 953fc0d3c64ee1bc6df5d98742e165a2
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
+at com.progressional.qa.pages.CreateJourneyPage.clickOnCreateJourneyButton(CreateJourneyPage.java:28)
+at com.progressional.qa.testcases.CreateJourneyTest.verifyCreateJourney(CreateJourneyTest.java:37)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- updatePersonalDetailsPageManadatoryFields -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.progressional.qa.testcases.UpdateprofileTest@413d1baf]" started-at="2024-04-25T23:02:41 IST" name="tearDown" finished-at="2024-04-25T23:02:44 IST" duration-ms="2221" status="PASS">
+        </test-method> <!-- verifyCreateJourney -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.progressional.qa.testcases.CreateJourneyTest@2cb4893b]" started-at="2024-07-06T23:20:37 IST" name="tearDown" finished-at="2024-07-06T23:20:37 IST" duration-ms="690" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.progressional.qa.testcases.UpdateprofileTest -->
+      </class> <!-- com.progressional.qa.testcases.CreateJourneyTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

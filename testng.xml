@@ -3,10 +3,10 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.progressional.qa.testcases.RegisterTest"/>
+      <!--<class name="com.progressional.qa.testcases.RegisterTest"/> -->
       <class name="com.progressional.qa.testcases.LoginTest"/>
-      <class name="com.progressional.qa.testcases.UpdateprofileTest"/>
-      
+     <!-- <class name="com.progressional.qa.testcases.UpdateprofileTest"/> -->
+      <class name="com.progressional.qa.testcases.CreateJourneyTest"/>   
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
