@@ -31,5 +31,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="/StringMedia"/>
+	<classpathentry kind="lib" path="C:/Users/umesh/.p2/pool/plugins/org.testng_7.8.0.r202306071539.jar" sourcepath="C:/Users/umesh/.p2/pool/plugins/org.testng.source_7.8.0.r202306071539.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

@@ -3,13 +3,14 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.progressional.qa.testcases.CreateJourneyTest">
+      <class name="com.progressional.qa.testcases.RegisterTest">
         <methods>
-          <include name="tearDown"/>
+          <include name="verifyRegisteringAnAccountWithMandatoryFields"/>
           <include name="setup"/>
-          <include name="verifyCreateJourney"/>
+          <include name="verifyRegisteringAccountWithExistingEmailAddress"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.progressional.qa.testcases.CreateJourneyTest -->
+      </class> <!-- com.progressional.qa.testcases.RegisterTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

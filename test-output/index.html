@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">6 methods, 1 failed,   5 passed</span>
+                    <span class="method-stats">8 methods, 2 failed,   6 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -103,7 +103,12 @@
                     <div class="method-list-content failed suite-Suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.progressional.qa.testcases.CreateJourneyTest" class="method navigator-link" hash-for-method="verifyCreateJourney">verifyCreateJourney</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="com.progressional.qa.testcases.RegisterTest" class="method navigator-link" hash-for-method="verifyRegisteringAccountWithExistingEmailAddress">verifyRegisteringAccountWithExistingEmailAddress</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.progressional.qa.testcases.RegisterTest" class="method navigator-link" hash-for-method="verifyRegisteringAnAccountWithMandatoryFields">verifyRegisteringAnAccountWithMandatoryFields</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Suite -->
@@ -140,6 +145,11 @@
                         <a href="#" panel-name="suite-Suite" title="com.progressional.qa.testcases.LoginTest" class="method navigator-link" hash-for-method="verifyLoginWithoutProvidingCredentials">verifyLoginWithoutProvidingCredentials</a> <!-- method navigator-link -->
                       </span>
                       <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.progressional.qa.testcases.RegisterTest" class="method navigator-link" hash-for-method="verifyRegisteringAccountWithoutFillingAnyDetails">verifyRegisteringAccountWithoutFillingAnyDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
@@ -155,23 +165,23 @@
           <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">com.progressional.qa.testcases.CreateJourneyTest</span>
+              <span class="class-name">com.progressional.qa.testcases.RegisterTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyCreateJourney">
-                  </a> <!-- verifyCreateJourney -->
-                  <span class="method-name">verifyCreateJourney</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[normalize-space()=&apos;Create New Journey&apos;]&quot;}
+                  <a name="verifyRegisteringAccountWithExistingEmailAddress">
+                  </a> <!-- verifyRegisteringAccountWithExistingEmailAddress -->
+                  <span class="method-name">verifyRegisteringAccountWithExistingEmailAddress</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;sc-dmyCSP bDsWfK&apos;]&quot;}
   (Session info: chrome=103.0.5060.114)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [953fc0d3c64ee1bc6df5d98742e165a2, findElement {using=xpath, value=//span[normalize-space()=&apos;Create New Journey&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\umesh\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63243}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63243/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 953fc0d3c64ee1bc6df5d98742e165a2
+Command: [0e731146234c7567c10b5070898a73f0, findElement {using=xpath, value=//div[@class=&apos;sc-dmyCSP bDsWfK&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\umesh\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61541}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61541/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0e731146234c7567c10b5070898a73f0
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
@@ -186,8 +196,43 @@ Session ID: 953fc0d3c64ee1bc6df5d98742e165a2
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
-	at com.progressional.qa.pages.CreateJourneyPage.clickOnCreateJourneyButton(CreateJourneyPage.java:28)
-	at com.progressional.qa.testcases.CreateJourneyTest.verifyCreateJourney(CreateJourneyTest.java:37)
+	at com.progressional.qa.pages.RegisterPage.registerWithAllFields(RegisterPage.java:134)
+	at com.progressional.qa.testcases.RegisterTest.verifyRegisteringAccountWithExistingEmailAddress(RegisterTest.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegisteringAnAccountWithMandatoryFields">
+                  </a> <!-- verifyRegisteringAnAccountWithMandatoryFields -->
+                  <span class="method-name">verifyRegisteringAnAccountWithMandatoryFields</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;sc-dmyCSP bDsWfK&apos;]&quot;}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.12.1&apos;, revision: &apos;8e34639b11&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;18.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9dc9a72ad7c0484a0a6841c5f8196b00, findElement {using=xpath, value=//div[@class=&apos;sc-dmyCSP bDsWfK&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.134 (8ec6fce403b..., userDataDir: C:\Users\umesh\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61482}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61482/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9dc9a72ad7c0484a0a6841c5f8196b00
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy17.click(Unknown Source)
+	at com.progressional.qa.pages.RegisterPage.registerWithMandatoryFields(RegisterPage.java:121)
+	at com.progressional.qa.testcases.RegisterTest.verifyRegisteringAnAccountWithMandatoryFields(RegisterTest.java:44)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 28 stack frames
 </div> <!-- stack-trace -->
@@ -195,6 +240,21 @@ Session ID: 953fc0d3c64ee1bc6df5d98742e165a2
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.progressional.qa.testcases.RegisterTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegisteringAccountWithoutFillingAnyDetails">
+                  </a> <!-- verifyRegisteringAccountWithoutFillingAnyDetails -->
+                  <span class="method-name">verifyRegisteringAccountWithoutFillingAnyDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -251,8 +311,8 @@ Session ID: 953fc0d3c64ee1bc6df5d98742e165a2
 &lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
+      &lt;class name=&quot;com.progressional.qa.testcases.RegisterTest&quot;/&gt;
       &lt;class name=&quot;com.progressional.qa.testcases.LoginTest&quot;/&gt;
-      &lt;class name=&quot;com.progressional.qa.testcases.CreateJourneyTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -292,36 +352,44 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(6);
+data.addRows(8);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'verifyLoginWithValidCredentials')
 data.setCell(0, 2, 'com.progressional.qa.testcases.LoginTest')
-data.setCell(0, 3, 3856);
+data.setCell(0, 3, 1614);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verifyLoginWithValidEmailAndInvalidPassword')
+data.setCell(1, 1, 'verifyLoginWithInvalidCredentials')
 data.setCell(1, 2, 'com.progressional.qa.testcases.LoginTest')
-data.setCell(1, 3, 2242);
+data.setCell(1, 3, 781);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'verifyLoginWithInvalidEmailAndValidPassword')
+data.setCell(2, 1, 'verifyLoginWithValidEmailAndInvalidPassword')
 data.setCell(2, 2, 'com.progressional.qa.testcases.LoginTest')
-data.setCell(2, 3, 1545);
+data.setCell(2, 3, 761);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'verifyLoginWithInvalidCredentials')
-data.setCell(3, 2, 'com.progressional.qa.testcases.LoginTest')
-data.setCell(3, 3, 926);
+data.setCell(3, 1, 'verifyRegisteringAccountWithoutFillingAnyDetails')
+data.setCell(3, 2, 'com.progressional.qa.testcases.RegisterTest')
+data.setCell(3, 3, 709);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'verifyCreateJourney')
-data.setCell(4, 2, 'com.progressional.qa.testcases.CreateJourneyTest')
-data.setCell(4, 3, 274);
+data.setCell(4, 1, 'verifyLoginWithInvalidEmailAndValidPassword')
+data.setCell(4, 2, 'com.progressional.qa.testcases.LoginTest')
+data.setCell(4, 3, 599);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'verifyLoginWithoutProvidingCredentials')
-data.setCell(5, 2, 'com.progressional.qa.testcases.LoginTest')
-data.setCell(5, 3, 235);
+data.setCell(5, 1, 'verifyRegisteringAnAccountWithMandatoryFields')
+data.setCell(5, 2, 'com.progressional.qa.testcases.RegisterTest')
+data.setCell(5, 3, 314);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyLoginWithoutProvidingCredentials')
+data.setCell(6, 2, 'com.progressional.qa.testcases.LoginTest')
+data.setCell(6, 3, 100);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyRegisteringAccountWithExistingEmailAddress')
+data.setCell(7, 2, 'com.progressional.qa.testcases.RegisterTest')
+data.setCell(7, 3, 47);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 9 seconds</span>
+              <span class="suite-total-time">Total running time: 4 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -347,83 +415,109 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.progressional.qa.testcases.LoginTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.progressional.qa.testcases.RegisterTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyLoginWithValidCredentials(umesh@yopmail.com, Umesh@123)</span>
-                <span class="method-start">79555 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyRegisteringAnAccountWithMandatoryFields</span>
+                <span class="method-start">44282 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">teaDown</span>
-                <span class="method-start">83422 ms</span>
+                <span class="method-name">tearDown</span>
+                <span class="method-start">44621 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">90406 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">verifyLoginWithInvalidCredentials</span>
-                <span class="method-start">123419 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">teaDown</span>
-                <span class="method-start">124348 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">125040 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">verifyLoginWithInvalidEmailAndValidPassword</span>
-                <span class="method-start">140100 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">teaDown</span>
-                <span class="method-start">141649 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">142244 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">verifyLoginWithValidEmailAndInvalidPassword</span>
-                <span class="method-start">157971 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">teaDown</span>
-                <span class="method-start">160218 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">160769 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">verifyLoginWithoutProvidingCredentials</span>
-                <span class="method-start">174879 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">teaDown</span>
-                <span class="method-start">175119 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.progressional.qa.testcases.CreateJourneyTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">175571 ms</span>
+                <span class="method-start">52945 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">verifyCreateJourney</span>
-                <span class="method-start">189332 ms</span>
+                <span class="method-name">verifyRegisteringAccountWithExistingEmailAddress</span>
+                <span class="method-start">74691 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">189612 ms</span>
+                <span class="method-start">74745 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">75999 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyRegisteringAccountWithoutFillingAnyDetails</span>
+                <span class="method-start">90049 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">90759 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.progressional.qa.testcases.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">91178 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginWithValidCredentials(umesh@yopmail.com, Umesh@123)</span>
+                <span class="method-start">119945 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teaDown</span>
+                <span class="method-start">121561 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">123218 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginWithInvalidCredentials</span>
+                <span class="method-start">141433 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teaDown</span>
+                <span class="method-start">142217 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">143761 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginWithInvalidEmailAndValidPassword</span>
+                <span class="method-start">156870 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teaDown</span>
+                <span class="method-start">157476 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">157955 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginWithValidEmailAndInvalidPassword</span>
+                <span class="method-start">170684 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teaDown</span>
+                <span class="method-start">171452 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">172057 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginWithoutProvidingCredentials</span>
+                <span class="method-start">186749 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teaDown</span>
+                <span class="method-start">186852 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
