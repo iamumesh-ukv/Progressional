@@ -12,12 +12,14 @@ import com.progressional.qa.pages.UpdateprofilePage;
 public class UpdateprofileTest extends BaseClass {
 	
 	UpdateprofilePage updateprofilePage;
-	public WebDriver driver;
+	
 	
 	public UpdateprofileTest()
 	{
 		super();
 	}
+	
+	public WebDriver driver;
 	
 	@BeforeMethod
 	public void setup()
@@ -36,6 +38,4 @@ public class UpdateprofileTest extends BaseClass {
 	{
 		
 	}
-	
-
 }
