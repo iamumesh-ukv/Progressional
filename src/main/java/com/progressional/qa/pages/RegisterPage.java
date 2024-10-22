@@ -9,7 +9,7 @@ public class RegisterPage{
 	WebDriver driver;
 
 	//Objects
-	@FindBy(xpath="//div[@class='sc-dmyCSP bDsWfK']")
+	@FindBy(xpath="//div[@class='sc-elDIKY iNWnif']")
 	WebElement selectUserTypeDropdown;
 
 	@FindBy(xpath="//li[normalize-space()='USER']")
