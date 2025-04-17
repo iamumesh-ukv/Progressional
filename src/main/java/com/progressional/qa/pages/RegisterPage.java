@@ -38,6 +38,7 @@ public class RegisterPage{
 
 	@FindBy(xpath="//span[normalize-space()='Please enter email ID.']")
 	WebElement emailWarning;
+	
 	@FindBy(xpath="//div[contains(text(),'Email already exists.')]")
 	WebElement duplicateEmailAddressWarning;
 

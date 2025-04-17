@@ -1,123 +1,161 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-15T21:20:47 IST" name="Suite" finished-at="2024-10-15T21:24:27 IST" duration-ms="219526">
+  <suite started-at="2025-02-05T18:33:35 IST" name="Default suite" finished-at="2025-02-05T18:35:12 IST" duration-ms="97057">
     <groups>
     </groups>
-    <test started-at="2024-10-15T21:20:47 IST" name="Test" finished-at="2024-10-15T21:24:27 IST" duration-ms="219526">
-      <class name="com.progressional.qa.testcases.RegisterTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.progressional.qa.testcases.RegisterTest@563f38c4]" started-at="2024-10-15T21:20:49 IST" name="setup" finished-at="2024-10-15T21:21:52 IST" duration-ms="62781" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyRegisteringAnAccountWithMandatoryFields()[pri:1, instance:com.progressional.qa.testcases.RegisterTest@563f38c4]" started-at="2024-10-15T21:21:52 IST" name="verifyRegisteringAnAccountWithMandatoryFields" finished-at="2024-10-15T21:22:04 IST" duration-ms="12266" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyRegisteringAnAccountWithMandatoryFields -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.progressional.qa.testcases.RegisterTest@563f38c4]" started-at="2024-10-15T21:22:04 IST" name="tearDown" finished-at="2024-10-15T21:22:10 IST" duration-ms="5304" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.progressional.qa.testcases.RegisterTest@563f38c4]" started-at="2024-10-15T21:22:10 IST" name="setup" finished-at="2024-10-15T21:22:55 IST" duration-ms="45679" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyRegisteringAccountWithExistingEmailAddress()[pri:2, instance:com.progressional.qa.testcases.RegisterTest@563f38c4]" started-at="2024-10-15T21:22:55 IST" name="verifyRegisteringAccountWithExistingEmailAddress" finished-at="2024-10-15T21:22:56 IST" duration-ms="947" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyRegisteringAccountWithExistingEmailAddress -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.progressional.qa.testcases.RegisterTest@563f38c4]" started-at="2024-10-15T21:22:56 IST" name="tearDown" finished-at="2024-10-15T21:22:59 IST" duration-ms="2754" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.progressional.qa.testcases.RegisterTest@563f38c4]" started-at="2024-10-15T21:22:59 IST" name="setup" finished-at="2024-10-15T21:23:12 IST" duration-ms="13153" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyRegisteringAccountWithoutFillingAnyDetails()[pri:3, instance:com.progressional.qa.testcases.RegisterTest@563f38c4]" started-at="2024-10-15T21:23:12 IST" name="verifyRegisteringAccountWithoutFillingAnyDetails" finished-at="2024-10-15T21:23:12 IST" duration-ms="319" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyRegisteringAccountWithoutFillingAnyDetails -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.progressional.qa.testcases.RegisterTest@563f38c4]" started-at="2024-10-15T21:23:12 IST" name="tearDown" finished-at="2024-10-15T21:23:13 IST" duration-ms="635" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.progressional.qa.testcases.RegisterTest -->
+    <test started-at="2025-02-05T18:33:35 IST" name="Default test" finished-at="2025-02-05T18:35:12 IST" duration-ms="97057">
       <class name="com.progressional.qa.testcases.LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.progressional.qa.testcases.LoginTest@413d1baf]" started-at="2024-10-15T21:23:13 IST" name="setup" finished-at="2024-10-15T21:23:27 IST" duration-ms="13460" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.progressional.qa.testcases.LoginTest@7161d8d1]" started-at="2025-02-05T18:33:35 IST" name="setup" finished-at="2025-02-05T18:35:12 IST" duration-ms="96636" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.160)
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [300d4f3ef3062a9351f9e9d41e193561, get {url=https://mbts.flexsin.org/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\umesh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62707}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62707/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 300d4f3ef3062a9351f9e9d41e193561]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.160)
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [300d4f3ef3062a9351f9e9d41e193561, get {url=https://mbts.flexsin.org/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\umesh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62707}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62707/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 300d4f3ef3062a9351f9e9d41e193561
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:304)
+at com.progressional.qa.baseclass.BaseClass.initializeBrowserAndOpenApplicationURL(BaseClass.java:74)
+at com.progressional.qa.testcases.LoginTest.setup(LoginTest.java:27)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLoginWithValidCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.progressional.qa.testcases.LoginTest@413d1baf]" started-at="2024-10-15T21:23:27 IST" name="verifyLoginWithValidCredentials" data-provider="validCredentialsSupplier" finished-at="2024-10-15T21:23:27 IST" duration-ms="841" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[umesh@yopmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Umesh@123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginWithValidCredentials -->
-        <test-method is-config="true" signature="teaDown()[pri:0, instance:com.progressional.qa.testcases.LoginTest@413d1baf]" started-at="2024-10-15T21:23:27 IST" name="teaDown" finished-at="2024-10-15T21:23:28 IST" duration-ms="503" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teaDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.progressional.qa.testcases.LoginTest@413d1baf]" started-at="2024-10-15T21:23:28 IST" name="setup" finished-at="2024-10-15T21:23:39 IST" duration-ms="10722" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyLoginWithInvalidCredentials()[pri:2, instance:com.progressional.qa.testcases.LoginTest@413d1baf]" started-at="2024-10-15T21:23:39 IST" name="verifyLoginWithInvalidCredentials" finished-at="2024-10-15T21:23:39 IST" duration-ms="551" status="PASS">
+        <test-method signature="verifyLoginWithInvalidCredentials()[pri:2, instance:com.progressional.qa.testcases.LoginTest@7161d8d1]" started-at="2025-02-05T18:35:12 IST" name="verifyLoginWithInvalidCredentials" finished-at="2025-02-05T18:35:12 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.160)
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [300d4f3ef3062a9351f9e9d41e193561, get {url=https://mbts.flexsin.org/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\umesh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62707}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62707/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 300d4f3ef3062a9351f9e9d41e193561]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.160)
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [300d4f3ef3062a9351f9e9d41e193561, get {url=https://mbts.flexsin.org/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.160, chrome: {chromedriverVersion: 132.0.6834.159 (2d77d3fc445..., userDataDir: C:\Users\umesh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62707}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62707/devtoo..., se:cdpVersion: 132.0.6834.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 300d4f3ef3062a9351f9e9d41e193561
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:304)
+at com.progressional.qa.baseclass.BaseClass.initializeBrowserAndOpenApplicationURL(BaseClass.java:74)
+at com.progressional.qa.testcases.LoginTest.setup(LoginTest.java:27)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:577)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginWithInvalidCredentials -->
-        <test-method is-config="true" signature="teaDown()[pri:0, instance:com.progressional.qa.testcases.LoginTest@413d1baf]" started-at="2024-10-15T21:23:39 IST" name="teaDown" finished-at="2024-10-15T21:23:41 IST" duration-ms="1466" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teaDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.progressional.qa.testcases.LoginTest@413d1baf]" started-at="2024-10-15T21:23:41 IST" name="setup" finished-at="2024-10-15T21:23:57 IST" duration-ms="16519" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyLoginWithInvalidEmailAndValidPassword()[pri:3, instance:com.progressional.qa.testcases.LoginTest@413d1baf]" started-at="2024-10-15T21:23:57 IST" name="verifyLoginWithInvalidEmailAndValidPassword" finished-at="2024-10-15T21:23:58 IST" duration-ms="416" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginWithInvalidEmailAndValidPassword -->
-        <test-method is-config="true" signature="teaDown()[pri:0, instance:com.progressional.qa.testcases.LoginTest@413d1baf]" started-at="2024-10-15T21:23:58 IST" name="teaDown" finished-at="2024-10-15T21:23:58 IST" duration-ms="580" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teaDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.progressional.qa.testcases.LoginTest@413d1baf]" started-at="2024-10-15T21:23:58 IST" name="setup" finished-at="2024-10-15T21:24:11 IST" duration-ms="13058" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyLoginWithValidEmailAndInvalidPassword()[pri:4, instance:com.progressional.qa.testcases.LoginTest@413d1baf]" started-at="2024-10-15T21:24:11 IST" name="verifyLoginWithValidEmailAndInvalidPassword" finished-at="2024-10-15T21:24:12 IST" duration-ms="564" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginWithValidEmailAndInvalidPassword -->
-        <test-method is-config="true" signature="teaDown()[pri:0, instance:com.progressional.qa.testcases.LoginTest@413d1baf]" started-at="2024-10-15T21:24:12 IST" name="teaDown" finished-at="2024-10-15T21:24:13 IST" duration-ms="1262" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teaDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.progressional.qa.testcases.LoginTest@413d1baf]" started-at="2024-10-15T21:24:13 IST" name="setup" finished-at="2024-10-15T21:24:26 IST" duration-ms="13041" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyLoginWithoutProvidingCredentials()[pri:5, instance:com.progressional.qa.testcases.LoginTest@413d1baf]" started-at="2024-10-15T21:24:26 IST" name="verifyLoginWithoutProvidingCredentials" finished-at="2024-10-15T21:24:26 IST" duration-ms="116" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginWithoutProvidingCredentials -->
-        <test-method is-config="true" signature="teaDown()[pri:0, instance:com.progressional.qa.testcases.LoginTest@413d1baf]" started-at="2024-10-15T21:24:26 IST" name="teaDown" finished-at="2024-10-15T21:24:27 IST" duration-ms="472" status="PASS">
+        <test-method is-config="true" signature="teaDown()[pri:0, instance:com.progressional.qa.testcases.LoginTest@7161d8d1]" started-at="2025-02-05T18:35:12 IST" name="teaDown" finished-at="2025-02-05T18:35:12 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teaDown -->
       </class> <!-- com.progressional.qa.testcases.LoginTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

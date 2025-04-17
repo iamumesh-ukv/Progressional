@@ -34,8 +34,8 @@ public class Utilities {
 		XSSFWorkbook workbook=null;
 		try
 		{
-		FileInputStream fisExcel = new FileInputStream(excelFile);
-		workbook = new  XSSFWorkbook(fisExcel);
+			FileInputStream fisExcel = new FileInputStream(excelFile);
+			workbook = new  XSSFWorkbook(fisExcel);
 		}
 		catch(Throwable e)
 		{
@@ -44,32 +44,32 @@ public class Utilities {
 		XSSFSheet sheet= workbook.getSheet(sheetName);
 		int rows = sheet.getLastRowNum();
 		int cols = sheet.getRow(0).getLastCellNum();
-		
+
 		Object[][]data= new Object[rows][cols];
 		for(int i=0;i<rows;i++)
 		{
 			XSSFRow row = sheet.getRow(i+1); 
-		
-		for(int j=0;j<cols;j++)
-		{
-			XSSFCell cell = row.getCell(j);
-			CellType cellType = cell.getCellType();
-			
-			switch(cellType) {
-			
-			case STRING:
-				data[i][j] = cell.getStringCellValue();
-				break;
-			case NUMERIC:
-				data[i][j] = Integer.toString((int)cell.getNumericCellValue());
-				break;
-			case BOOLEAN:
-				data[i][j] = cell.getBooleanCellValue();
-				break;
+
+			for(int j=0;j<cols;j++)
+			{
+				XSSFCell cell = row.getCell(j);
+				CellType cellType = cell.getCellType();
+
+				switch(cellType) {
+
+				case STRING:
+					data[i][j] = cell.getStringCellValue();
+					break;
+				case NUMERIC:
+					data[i][j] = Integer.toString((int)cell.getNumericCellValue());
+					break;
+				case BOOLEAN:
+					data[i][j] = cell.getBooleanCellValue();
+					break;
+				}
 			}
-		  }
 		}
-	
+
 		return data;
 	}
 	public static String captureScreenshot(WebDriver driver,String testName)
@@ -85,7 +85,6 @@ public class Utilities {
 			e.printStackTrace();
 		}
 		return destinationScreenshotPath;
-
 	}
 }
 
